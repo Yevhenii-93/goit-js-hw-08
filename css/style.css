@@ -1,0 +1,25 @@
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.gallery {
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 24px;
+  padding: 24px 156px;
+}
+
+.gallery-item {
+  width: calc((100% - 24px * 2) / 3);
+}
